@@ -38,7 +38,6 @@ function game() {
 
     function output(playerSelection) {
         const computerSelection = getComputerChoice();
-        playRound(playerSelection, computerSelection);  
         p1.textContent = "YOU: " + playerSelection;
         p2.textContent = "PC: " + computerSelection;
         let round = playRound(playerSelection, computerSelection);
